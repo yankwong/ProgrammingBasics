@@ -1,0 +1,22 @@
+{
+  "name": "programming-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "reduce": "node learnReduce.js",
+    "async": "node learnAsync.js",
+    "test": "node node_modules/mocha/bin/mocha --recursive ./tests"
+  },
+  "author": "Andy Kwong",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "sinon": "^6.2.0"
+  }
+}
